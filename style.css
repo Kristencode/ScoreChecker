@@ -1,6 +1,8 @@
 body{
     height: 100vh ;
     background: rgb(233, 205, 205);
+    justify-items: center;
+    align-content: center;
 }
 
 .content{
@@ -9,6 +11,10 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    border: 0.5px solid brown;
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 0px 10px 0px;
 }
 
 button{
