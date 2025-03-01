@@ -1,0 +1,34 @@
+body{
+    height: 100vh ;
+    background: rgb(233, 205, 205);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button{
+  width: 150px;
+  height: 25px;
+  border: none;
+  margin-top: 5px;
+  color: brown;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+h1{
+  color: brown;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+#checkScore{
+  border: none;
+  width: 200px;
+  height: 30px;
+}
