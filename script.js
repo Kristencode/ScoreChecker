@@ -1,48 +1,24 @@
 //  QUESTION ONE;
 
-
-
-
-document.addEventListener(
-'DOMContentLoaded', function()
-{
+document.addEventListener("DOMContentLoaded", function () {
   let studentScore;
 
-document.getElementById("btn").addEventListener("click", function () {
-  let studentScore = parseInt(document.getElementById("checkScore").value);
+  document.getElementById("btn").addEventListener("click", function () {
+    let studentScore = parseInt(document.getElementById("checkScore").value);
 
-  if (studentScore < 44) {
-   alert(' F');
-  } else if (studentScore >= 45 && studentScore < 49) {
-    alert(" D");
-  } else if (studentScore >= 50 && studentScore < 59){
-    alert('C');
-  } else if (studentScore >= 60 && studentScore < 69){
-    alert('B');
-  } else if (studentScore >=70  && studentScore == 100){
-    alert('A');
-
-  }
+    if (studentScore < 60) {
+      alert(" F");
+    } else if (studentScore >= 60 && studentScore < 69) {
+      alert(" D");
+    } else if (studentScore >= 70 && studentScore < 79) {
+      alert("B");
+    } else if (studentScore >= 80 && studentScore < 89) {
+      alert("B");
+    } else if (studentScore >= 90 && studentScore == 100) {
+      alert("A");
+    }
+  });
 });
-  })
-
- 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // if (Score < 49) {
 
@@ -57,35 +33,7 @@ document.getElementById("btn").addEventListener("click", function () {
 //   console.log("A");
 // }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // // logical and comparison operators
-
-
 
 // // symbol and BingIt
 
@@ -114,7 +62,6 @@ document.getElementById("btn").addEventListener("click", function () {
 //     console.log('you need to be >18')
 // }
 
-
 // // else if
 
 // let Score = 20;
@@ -126,17 +73,11 @@ document.getElementById("btn").addEventListener("click", function () {
 //     console.log('B')
 // } else if (Score < 50){console.log('Resit')}
 
-
 // if (Score == HighestScore){
 //     console.log('True')
 // }else if (Score !== HighestScore){
 //     console.log('you need a lot of study')
 // }
-
-
-
-
-
 
 // // STRINGS
 // // Strings method
@@ -159,12 +100,10 @@ document.getElementById("btn").addEventListener("click", function () {
 
 // // trimEnd()
 
-
 // // trimStart()
 
-
 // // data Types
-// let child = 18  
+// let child = 18
 // if (child = 18){console.log('up to age')
 // }
 // let state = 'Plateau'
